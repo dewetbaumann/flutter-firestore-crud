@@ -33,10 +33,10 @@ class UpdateFirestore extends StatelessWidget {
               ),
             ),
             TextButton(
-              // Nota: con el motodo set()con merge:true actualizará los campos en el documento
-              //o lo creará si no existe mientras update()actualizará los campos pero fallará
-              //si el documento no existe
               onPressed: () {
+                // Nota: con el motodo set()con merge:true actualizará los campos en el documento
+                //o lo creará si no existe mientras update()actualizará los campos pero fallará
+                //si el documento no existe
                 fs
                     .collection('users')
                     .doc('Grgpk37OCLLSotER0e07')

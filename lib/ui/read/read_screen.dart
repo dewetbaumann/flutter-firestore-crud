@@ -52,7 +52,6 @@ class ReadFirestore extends StatelessWidget {
 
   Future<void> _onPressed2() async {
     // Obtiene todos los docuemtos de una coleccion en especifico sin conocer los docuemntos
-
     fs.collection("users").get().then((querySnapshot) {
       querySnapshot.docs.forEach((result) {
         // print('Clave: ${result.id} -> ${result.data()}');
