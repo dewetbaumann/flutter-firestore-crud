@@ -1,6 +1,7 @@
-// import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:firebase_demo/ui/read/readFromDocWithOutFields.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
+
+final fs = FirebaseFirestore.instance;
 
 class ReadFirestore extends StatelessWidget {
   @override

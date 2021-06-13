@@ -2,7 +2,6 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_demo/ui/create/create_screen.dart';
 import 'package:firebase_demo/ui/delete/delete_screen.dart';
 import 'package:firebase_demo/ui/read/readFromDocWithFields.dart';
-import 'package:firebase_demo/ui/read/readFromDocWithOutFields.dart';
 import 'package:firebase_demo/ui/read/read_screen.dart';
 import 'package:firebase_demo/ui/update/update_screen.dart';
 import 'package:flutter/material.dart';
@@ -40,7 +39,6 @@ class _MyAppState extends State<MyApp> {
         '/update': (context) => UpdateFirestore(),
         '/delete': (context) => DeleteFirestore(),
         '/readFromDocsWithFields': (context) => ReadFromDocWithFields(),
-        '/readFromDocsWithOutFields': (context) => ReadFromDocWithOutFields(),
       },
     );
   }
